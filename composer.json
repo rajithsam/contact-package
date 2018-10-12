@@ -1,0 +1,19 @@
+{
+    "name": "radius/contact",
+    "description": "This package is used to store the contact information from user in DB & send it to admin through email.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rajith",
+            "email": "rajithsam.r@radiusmedia.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Radius\\Contact\\": "src/"
+        }
+    }
+}
